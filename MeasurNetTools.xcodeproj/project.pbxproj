@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179E286F1E06904A004C78DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E286E1E06904A004C78DE /* main.m */; };
+		179E28721E06904A004C78DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E28711E06904A004C78DE /* AppDelegate.m */; };
+		179E28751E06904A004C78DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E28741E06904A004C78DE /* ViewController.m */; };
+		179E28781E06904A004C78DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179E28761E06904A004C78DE /* Main.storyboard */; };
+		179E287A1E06904A004C78DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179E28791E06904A004C78DE /* Assets.xcassets */; };
+		179E287D1E06904A004C78DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179E287B1E06904A004C78DE /* LaunchScreen.storyboard */; };
+		179E28881E06904A004C78DE /* MeasurNetToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E28871E06904A004C78DE /* MeasurNetToolsTests.m */; };
+		179E28931E06904A004C78DE /* MeasurNetToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E28921E06904A004C78DE /* MeasurNetToolsUITests.m */; };
+		179E28A41E069100004C78DE /* MeasurNetTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E28A11E069100004C78DE /* MeasurNetTools.m */; };
+		179E28A51E069100004C78DE /* QBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E28A31E069100004C78DE /* QBTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179E28841E06904A004C78DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179E28621E06904A004C78DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179E28691E06904A004C78DE;
+			remoteInfo = MeasurNetTools;
+		};
+		179E288F1E06904A004C78DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179E28621E06904A004C78DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179E28691E06904A004C78DE;
+			remoteInfo = MeasurNetTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179E286A1E06904A004C78DE /* MeasurNetTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeasurNetTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179E286E1E06904A004C78DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179E28701E06904A004C78DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		179E28711E06904A004C78DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		179E28731E06904A004C78DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		179E28741E06904A004C78DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		179E28771E06904A004C78DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		179E28791E06904A004C78DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179E287C1E06904A004C78DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179E287E1E06904A004C78DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179E28831E06904A004C78DE /* MeasurNetToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasurNetToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179E28871E06904A004C78DE /* MeasurNetToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasurNetToolsTests.m; sourceTree = "<group>"; };
+		179E28891E06904A004C78DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179E288E1E06904A004C78DE /* MeasurNetToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasurNetToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179E28921E06904A004C78DE /* MeasurNetToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasurNetToolsUITests.m; sourceTree = "<group>"; };
+		179E28941E06904A004C78DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179E28A01E069100004C78DE /* MeasurNetTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurNetTools.h; sourceTree = "<group>"; };
+		179E28A11E069100004C78DE /* MeasurNetTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurNetTools.m; sourceTree = "<group>"; };
+		179E28A21E069100004C78DE /* QBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTools.h; sourceTree = "<group>"; };
+		179E28A31E069100004C78DE /* QBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179E28671E06904A004C78DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E28801E06904A004C78DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E288B1E06904A004C78DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179E28611E06904A004C78DE = {
+			isa = PBXGroup;
+			children = (
+				179E286C1E06904A004C78DE /* MeasurNetTools */,
+				179E28861E06904A004C78DE /* MeasurNetToolsTests */,
+				179E28911E06904A004C78DE /* MeasurNetToolsUITests */,
+				179E286B1E06904A004C78DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179E286B1E06904A004C78DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179E286A1E06904A004C78DE /* MeasurNetTools.app */,
+				179E28831E06904A004C78DE /* MeasurNetToolsTests.xctest */,
+				179E288E1E06904A004C78DE /* MeasurNetToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179E286C1E06904A004C78DE /* MeasurNetTools */ = {
+			isa = PBXGroup;
+			children = (
+				179E28701E06904A004C78DE /* AppDelegate.h */,
+				179E28711E06904A004C78DE /* AppDelegate.m */,
+				179E28731E06904A004C78DE /* ViewController.h */,
+				179E28741E06904A004C78DE /* ViewController.m */,
+				179E28761E06904A004C78DE /* Main.storyboard */,
+				179E28791E06904A004C78DE /* Assets.xcassets */,
+				179E287B1E06904A004C78DE /* LaunchScreen.storyboard */,
+				179E287E1E06904A004C78DE /* Info.plist */,
+				179E286D1E06904A004C78DE /* Supporting Files */,
+			);
+			path = MeasurNetTools;
+			sourceTree = "<group>";
+		};
+		179E286D1E06904A004C78DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179E28A01E069100004C78DE /* MeasurNetTools.h */,
+				179E28A11E069100004C78DE /* MeasurNetTools.m */,
+				179E28A21E069100004C78DE /* QBTools.h */,
+				179E28A31E069100004C78DE /* QBTools.m */,
+				179E286E1E06904A004C78DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		179E28861E06904A004C78DE /* MeasurNetToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				179E28871E06904A004C78DE /* MeasurNetToolsTests.m */,
+				179E28891E06904A004C78DE /* Info.plist */,
+			);
+			path = MeasurNetToolsTests;
+			sourceTree = "<group>";
+		};
+		179E28911E06904A004C78DE /* MeasurNetToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				179E28921E06904A004C78DE /* MeasurNetToolsUITests.m */,
+				179E28941E06904A004C78DE /* Info.plist */,
+			);
+			path = MeasurNetToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179E28691E06904A004C78DE /* MeasurNetTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179E28971E06904A004C78DE /* Build configuration list for PBXNativeTarget "MeasurNetTools" */;
+			buildPhases = (
+				179E28661E06904A004C78DE /* Sources */,
+				179E28671E06904A004C78DE /* Frameworks */,
+				179E28681E06904A004C78DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeasurNetTools;
+			productName = MeasurNetTools;
+			productReference = 179E286A1E06904A004C78DE /* MeasurNetTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179E28821E06904A004C78DE /* MeasurNetToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179E289A1E06904A004C78DE /* Build configuration list for PBXNativeTarget "MeasurNetToolsTests" */;
+			buildPhases = (
+				179E287F1E06904A004C78DE /* Sources */,
+				179E28801E06904A004C78DE /* Frameworks */,
+				179E28811E06904A004C78DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179E28851E06904A004C78DE /* PBXTargetDependency */,
+			);
+			name = MeasurNetToolsTests;
+			productName = MeasurNetToolsTests;
+			productReference = 179E28831E06904A004C78DE /* MeasurNetToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		179E288D1E06904A004C78DE /* MeasurNetToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179E289D1E06904A004C78DE /* Build configuration list for PBXNativeTarget "MeasurNetToolsUITests" */;
+			buildPhases = (
+				179E288A1E06904A004C78DE /* Sources */,
+				179E288B1E06904A004C78DE /* Frameworks */,
+				179E288C1E06904A004C78DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179E28901E06904A004C78DE /* PBXTargetDependency */,
+			);
+			name = MeasurNetToolsUITests;
+			productName = MeasurNetToolsUITests;
+			productReference = 179E288E1E06904A004C78DE /* MeasurNetToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179E28621E06904A004C78DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jordan;
+				TargetAttributes = {
+					179E28691E06904A004C78DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					179E28821E06904A004C78DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 179E28691E06904A004C78DE;
+					};
+					179E288D1E06904A004C78DE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 179E28691E06904A004C78DE;
+					};
+				};
+			};
+			buildConfigurationList = 179E28651E06904A004C78DE /* Build configuration list for PBXProject "MeasurNetTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179E28611E06904A004C78DE;
+			productRefGroup = 179E286B1E06904A004C78DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179E28691E06904A004C78DE /* MeasurNetTools */,
+				179E28821E06904A004C78DE /* MeasurNetToolsTests */,
+				179E288D1E06904A004C78DE /* MeasurNetToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179E28681E06904A004C78DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E287D1E06904A004C78DE /* LaunchScreen.storyboard in Resources */,
+				179E287A1E06904A004C78DE /* Assets.xcassets in Resources */,
+				179E28781E06904A004C78DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E28811E06904A004C78DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E288C1E06904A004C78DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179E28661E06904A004C78DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E28A51E069100004C78DE /* QBTools.m in Sources */,
+				179E28A41E069100004C78DE /* MeasurNetTools.m in Sources */,
+				179E28751E06904A004C78DE /* ViewController.m in Sources */,
+				179E28721E06904A004C78DE /* AppDelegate.m in Sources */,
+				179E286F1E06904A004C78DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E287F1E06904A004C78DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E28881E06904A004C78DE /* MeasurNetToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179E288A1E06904A004C78DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E28931E06904A004C78DE /* MeasurNetToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179E28851E06904A004C78DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179E28691E06904A004C78DE /* MeasurNetTools */;
+			targetProxy = 179E28841E06904A004C78DE /* PBXContainerItemProxy */;
+		};
+		179E28901E06904A004C78DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179E28691E06904A004C78DE /* MeasurNetTools */;
+			targetProxy = 179E288F1E06904A004C78DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		179E28761E06904A004C78DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179E28771E06904A004C78DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		179E287B1E06904A004C78DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179E287C1E06904A004C78DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179E28951E06904A004C78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179E28961E06904A004C78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179E28981E06904A004C78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeasurNetTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordan.MeasurNetTools.MeasurNetTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		179E28991E06904A004C78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeasurNetTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordan.MeasurNetTools.MeasurNetTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		179E289B1E06904A004C78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeasurNetToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordan.MeasurNetTools.MeasurNetToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasurNetTools.app/MeasurNetTools";
+			};
+			name = Debug;
+		};
+		179E289C1E06904A004C78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeasurNetToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordan.MeasurNetTools.MeasurNetToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasurNetTools.app/MeasurNetTools";
+			};
+			name = Release;
+		};
+		179E289E1E06904A004C78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeasurNetToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordan.MeasurNetTools.MeasurNetToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeasurNetTools;
+			};
+			name = Debug;
+		};
+		179E289F1E06904A004C78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeasurNetToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordan.MeasurNetTools.MeasurNetToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeasurNetTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179E28651E06904A004C78DE /* Build configuration list for PBXProject "MeasurNetTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E28951E06904A004C78DE /* Debug */,
+				179E28961E06904A004C78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179E28971E06904A004C78DE /* Build configuration list for PBXNativeTarget "MeasurNetTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E28981E06904A004C78DE /* Debug */,
+				179E28991E06904A004C78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		179E289A1E06904A004C78DE /* Build configuration list for PBXNativeTarget "MeasurNetToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E289B1E06904A004C78DE /* Debug */,
+				179E289C1E06904A004C78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		179E289D1E06904A004C78DE /* Build configuration list for PBXNativeTarget "MeasurNetToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179E289E1E06904A004C78DE /* Debug */,
+				179E289F1E06904A004C78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179E28621E06904A004C78DE /* Project object */;
+}
